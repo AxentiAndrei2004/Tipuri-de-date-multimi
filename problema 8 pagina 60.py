@@ -1,0 +1,6 @@
+A=set(input('Introduceti elementele multimii A=').split())
+B=set(input('Introduceti elementele multimii B=').split())
+print('Intersectia multimilor A si B->',A.intersection(B))
+print('Reuniunea multimilor A si B->',A.union(B))
+print('Diferenta multimilor A si B',A.difference(B))
+print('Diferenta multimilor A si B',B.difference(A))

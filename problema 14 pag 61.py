@@ -1,0 +1,5 @@
+a=str(input('Introduceti caracterele primului sir:'))
+b=str(input('Introduceti caracterele celui de-al doilea sir:'))
+print('Caracterele care se intalnesc intr-unul dintre siruri',{set(a)&set(b)})
+print('Caracterele care se intalnesc in ambele siruri',{set(a)|set(b)})
+print('Caracterele ce se contin in primul sir dar nu se contin in al doilea sir',{set(a)-set(b)})
